@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Projet_RAGE_Jonathan</title>
+    <link rel="stylesheet" href="Memory_game_RAGE_Jonathan.css" />
+</head>
+<body>
+  <div class="shell">
+    <h1>Memory Game</h1>
+    <p class="lead">Trouve toutes les paires!</p>
+
+    <div class="controls">
+      <button id="restart">Recommencer</button>
+      <div class="info">Coups : <strong id="moves">0</strong> • Paires trouvées : <strong id="found">0</strong>/6</div>
+    </div>
+
+    <div class="board" id="board" aria-live="polite"></div>
+    <div class="status" id="status"></div>
+  </div>
+
+
+  <script src="Memory_game_RAGE_Jonathan.js" defer></script>
+</body>
+</html>
